@@ -4,9 +4,9 @@ import domain.Exercise;
 
 public class TestResult {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
-    }
+		short R = 1253;
+		System.out.println("Число - " + R + ", число Армстронга? (" + Exercise.Calculate(R) + ")");
+	}
 }
